@@ -1,0 +1,11 @@
+.artboard {
+  position: fixed;
+  top: 106px;
+  left: 320px;
+  width: 1040px;
+  height: 574px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 8px rgba(64,68,92,0.2);
+  z-index: 1;
+  overflow: hidden;
+}

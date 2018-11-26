@@ -1,0 +1,21 @@
+.button {
+  background: url(https://songhay.blob.core.windows.net/shared-styles-svg/akyinkyin.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: contain;
+  cursor: pointer;
+
+  position: fixed;
+  top: 26px;
+  left: 322px;
+  width: 55px;
+  height: 48px;
+  border-radius: 4px;
+  border: none;
+  background-color: #292C3F;
+  /* color: white; */
+  /* text-align: center; */
+  /* text-decoration: none; */
+  display: inline-block;
+  /* font-size: 40px; */
+  z-index: 1;
+  overflow: hidden;
+}
