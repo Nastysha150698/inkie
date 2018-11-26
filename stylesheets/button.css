@@ -1,6 +1,6 @@
 .button {
-  background: url(https://songhay.blob.core.windows.net/shared-styles-svg/akyinkyin.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
-  background-size: contain;
+  background: url(file:///Users/anastasiasavinova/Documents/HSE/3%20%D0%BA%D1%83%D1%80%D1%81/inkie/images/plus.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
   cursor: pointer;
 
   position: fixed;
