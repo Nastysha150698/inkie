@@ -1,8 +1,9 @@
+ /* Кнопка добавить "+" */
+
 .button {
-  background: url(file:///Users/anastasiasavinova/Documents/HSE/3%20%D0%BA%D1%83%D1%80%D1%81/inkie/images/plus.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background: url(../images/plus.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
   background-size: auto;
   cursor: pointer;
-
   position: fixed;
   top: 26px;
   left: 322px;
@@ -19,6 +20,25 @@
   z-index: 1;
   overflow: hidden;
 }
+
+.button:hover {
+  background: url(../images/plus_active.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+  cursor: pointer;
+  position: fixed;
+  top: 26px;
+  left: 322px;
+  width: 55px;
+  height: 48px;
+  border-radius: 4px;
+  border: none;
+  background-color: #292C3F;
+  display: inline-block;
+  z-index: 1;
+  overflow: hidden;z
+}
+
+ /* Кнопка "опубликовать" */
 
 .button_publish {
   position: fixed;
@@ -39,18 +59,173 @@
   overflow: hidden;
 }
 
-.button_show {
+ /* Кнопки общих настроек */
 
+.button_show {
+  background: url(../images/show.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+  cursor: pointer;
+  position: fixed;
+  top: 42px;
+  left: 1196px;
+  width: 12px;
+  height: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #292C3F;
+  display: inline-block;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.button_show:hover {
+  background: url(../images/show_active.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
 }
 
 .button_settings {
-
+  background: url(../images/settings.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+  cursor: pointer;
+  position: fixed;
+  top: 42px;
+  left: 1229px;
+  width: 20px;
+  height: 16px;
+  border: none;
+  display: inline-block;
+  z-index: 2;
+  overflow: hidden;
 }
+
+.button_settings:hover {
+  background: url(../images/settings_active.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+}
+
 
 .button_question {
-
+  background: url(../images/question.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+  cursor: pointer;
+  position: fixed;
+  top: 42px;
+  left: 1271px;
+  width: 9px;
+  height: 16px;
+  border: none;
+  display: inline-block;
+  z-index: 2;
+  overflow: hidden;
 }
 
-.button_profile {
+.button_question:hover {
+  background: url(../images/question_active.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+}
 
+
+.button_profile {
+  background: url(../images/profile.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+  cursor: pointer;
+  position: fixed;
+  top: 26px;
+  left: 1303px;
+  width: 56px;
+  height: 48px;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.button_profile:hover {
+  border-width: 4px;
+  border-style: solid;
+  border-color: #9265F4;
+}
+
+ /* Кнопки для работы с комиксом */
+
+.button_animation {
+  background: url(../images/animation.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+  cursor: pointer;
+  position: fixed;
+  top: 41px;
+  left: 36px;
+  width: 15px;
+  height: 21px;
+  fill: #F1F1F1;
+  border: none;
+  display: inline-block;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.button_animation:hover {
+  background: url(../images/animation_active.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+}
+
+.button_grid {
+  background: url(../images/grid.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+  cursor: pointer;
+  position: fixed;
+  top: 40px;
+  left: 84px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  display: inline-block;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.button_grid:hover {
+  background: url(../images/grid_active.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+}
+
+.button_pages {
+  background: url(../images/pages.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+  cursor: pointer;
+  position: fixed;
+  top: 40px;
+  left: 137px;
+  width: 18px;
+  height: 20px;
+  border: none;
+  display: inline-block;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.button_pages:hover {
+  background: url(../images/pages_active.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+}
+
+.button_layers {
+  background: url(../images/layers.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
+  cursor: pointer;
+  position: fixed;
+  top: 40px;
+  left: 188px;
+  width: 21px;
+  height: 20px;
+  border: none;
+  display: inline-block;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.button_layers:hover {
+  background: url(../images/layers_active.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
+  background-size: auto;
 }
