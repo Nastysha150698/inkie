@@ -4,9 +4,28 @@
     <meta charset="utf-8">
     <title>Inkie</title>
     <link rel="stylesheet" href="stylesheets/style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic');
+    </style>
   </head>
   <body>
     <div class="menu">
+      <div class="route">
+        <button class="route_1">Frame</button>
+        <button class="route_2">Group</button>
+        <button class="route_3">Ring</button>
+        <div class="arrow_1"></div>
+        <div class="arrow_2"></div>
+      </div>
+
+      <div class="animation_settings">
+        <select class="animation_settings_action_on">
+          <option value="Hover">Hover</option>
+          <option value="Klick">Klick</option>
+        </select>
+        <p class="action_on">Action on</p>
+      </div>
+
       <button class="button_animation"></button>
       <button class="button_grid"></button>
       <button class="button_pages"></button>
@@ -24,7 +43,7 @@
       <button class="button_profile"></button>
     </div>
 
-    <button class="button_publish">Опубликовать</button>
+    <button class="button_publish" disabled>Опубликовать</button>
 
   </body>
 </html>

@@ -229,3 +229,65 @@
   background: url(../images/layers_active.svg) no-repeat scroll center center / 100% auto rgba(0, 0, 0, 0);
   background-size: auto;
 }
+
+.route_1 {
+  position: fixed;
+  top: 92px;
+  left: 20px;
+  background-color: #212333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #E8E7E7;
+  opacity: 0.5;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.route_1:hover {
+    opacity: 1;
+}
+
+.route_2 {
+  position: fixed;
+  top: 92px;
+  left: 81px;
+  background-color: #212333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #E8E7E7;
+  opacity: 0.5;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.route_2:hover {
+    opacity: 1;
+}
+
+.route_3 {
+  position: fixed;
+  top: 92px;
+  left: 141px;
+  background-color: #212333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #00BF88;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  z-index: 3;
+  overflow: hidden;
+}
